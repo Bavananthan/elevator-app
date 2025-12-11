@@ -1,12 +1,9 @@
-/* Tailwind v4 import */
 @import "tailwindcss";
 
-/* Small app-level helpers and utilities */
 :root {
     --app-bg: theme("colors.slate.50", #f8fafc);
 }
 
-/* Make body use Tailwind utilities via @apply (PostCSS will expand) */
 html,
 body,
 #root {
