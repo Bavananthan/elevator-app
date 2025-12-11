@@ -4,11 +4,10 @@ interface Props {
     currentFloor: Floor;
     direction: "up" | "down" | null;
     pending: Floor[];
-    onGoToCurrent: () => void;
     onClear: () => void;
 }
 
-export default function ElevatorPanel({ currentFloor, direction, pending, onGoToCurrent, onClear }: Props) {
+export default function ElevatorPanel({ currentFloor, direction, pending, onClear }: Props) {
     return (
         <div className="w-48 flex flex-col gap-4">
             <div className="p-4 rounded-xl bg-slate-50 border text-center">
