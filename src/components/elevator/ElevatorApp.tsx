@@ -45,7 +45,6 @@ export default function ElevatorApp(): JSX.Element {
                                     currentFloor={currentFloor}
                                     direction={direction}
                                     pending={allPending}
-                                    onGoToCurrent={() => requestFloor(currentFloor)}
                                     onClear={() => clearAll()}
                                 />
                             </div>
